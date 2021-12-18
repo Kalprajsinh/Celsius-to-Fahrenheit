@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+void main()
+{
+    float x,y,z,w;
+
+    printf("enter value in centigrade:");
+    scanf("%f",&x);
+    y=1.8;
+    printf("\n(%.2f*%.2f)+32",y,x);
+    w=y*x;
+    z=w+32;
+    printf("\n\n%.2f Fahrenheit\n",z);
+}
